@@ -1,0 +1,114 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg');
+    color: rgb(250, 248, 248);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(241, 238, 16);
+    color: rgb(45, 44, 44);
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    column-gap: 20px;
+    padding: 100px;
+    
+}
+.product {
+    background-color: rgb(222, 39, 152);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: calc(50% - 20px); 
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(250, 243, 243);
+}
+
+.product p {
+    font-size: 16px;
+    color: rgb(38, 34, 34);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#contact {
+    background: url('contact.jpg');
+    background-size: cover; /* This makes the background image cover the entire section */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image horizontally and vertically */
+    padding: 80px 0;
+    text-align: left;
+    color: rgb(38, 34, 34);
+}
+
+footer {
+    background-color: rgb(43, 162, 236);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
